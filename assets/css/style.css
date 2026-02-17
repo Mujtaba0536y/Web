@@ -1,0 +1,28 @@
+.container{
+    height: 500px;
+    border: 2px dashed gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+img{
+    width: 90px;
+    height: 90px;
+}
+
+.nav_bar{
+    border: 1px solid black ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+}
