@@ -23,39 +23,47 @@ body{
 }
 
 .store_link{
-    background-color: #e5f1e5;
+    background-color: #a3eda3;
     width: 300px;
     text-decoration: nones;
     list-style: inside;
     margin-bottom: 15px;
     list-style: square;
+    border-radius: 10px;
+    padding: 15px;
 }
 
 .req_access{
     width: 300px;
-    background-color: #e5f1e5;
+    background-color: #a3eda3;
     text-decoration: nones;
     list-style: inside;
     margin-bottom: 15px;
     list-style: square;
+    border-radius: 10px;
+    padding: 15px;
 }
 
 .view_receipts{
     width: 300px;
-    background-color: #e5f1e5;
+    background-color: #a3eda3;
     text-decoration: nones;
     list-style: inside;
     margin-bottom: 15px;
     list-style: square;
+    border-radius: 10px;
+    padding: 15px;
 }
 
 .view_number{
     width: 300px;
-    background-color: #e5f1e5;
+    background-color: #a3eda3;
     text-decoration: nones;
     list-style: inside;
     margin-bottom: 20px;
     list-style: square;
+    border-radius: 10px;
+    padding: 15px;
 }
 
 .sub-item{
