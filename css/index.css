@@ -2,6 +2,7 @@ body{
     background-image: url(/assets/images/coffee_cafe.jpg);
     font-family: sans-serif;
     padding: 20px;
+    background-size: cover;
 }
 
 img{
