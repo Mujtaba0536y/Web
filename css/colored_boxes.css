@@ -1,0 +1,34 @@
+body{
+    background-color: #f4f4f4;
+}
+
+h1{
+    text-align: center;
+}
+
+.color-box{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.color1{
+    background-color: #33ff57;
+}
+
+.color2{
+    background-color: rgb(128,0,128);
+}
+
+.color3{
+    background-color: orange;
+}
+
+.color4{
+    background-color: hsl(59, 61%, 26%);
+}
+
+.color5{
+    background-color: #ff0000;
+}
