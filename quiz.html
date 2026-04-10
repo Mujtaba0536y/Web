@@ -26,28 +26,86 @@
 
             <section role="region" aria-labelledby="student-info">
                 <h2 id="student-info">Student Info</h2>
-                
+
                 <div class="info">
-                    <label for=""></label>
-                    <input type="text" name="" id="">
+                    <label for="student_name">Student's Name:</label>
+                    <input type="text" name="Student-Name" id="student_name" placeholder="e.g, John Doe">
                 </div>
+
                 <div class="info">
-                    <label for=""></label>
-                    <input type="text" name="" id="">
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="Email" id="email">
                 </div>
+
                 <div class="info">
-                    <label for=""></label>
-                    <input type="text" name="" id="">
+                    <label for="date_of_birth">Date of Birth:</label>
+                    <input type="date" name="date_of_birth" id="date_of_birth">
                 </div>
+
             </section>
 
             <section role="region" aria-labelledby="html-questions">
                 <h2 id="html-questions">HTML Questions</h2>
+
+                <div class="question-block">
+                    <h3><span class="sr-only">Question</span>1</h3>
+                    <fieldset name="html-question-one" class="question">
+                        <legend>The legend element represents a caption for the content of itsparent fieldset element</legend>
+                        <ul class="answers-list">
+                            <li>
+                                <label for="q1-a1">
+                                    <input id="q1-a1" name="q1" value="True" type="radio">True
+                                </label>
+                            </li>
+                            <li>
+                                <label for="q1-a2">
+                                    <input id="q1-a2" name="q1" value="False" type="radio">False
+                                </label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </div>
+
+                <div class="question-block">
+                    <h3><span class="sr-only">Question</span>2</h3>
+                    <fieldset name="html-question-two" class="question">
+                        <legend>A label element nesting an input element is required to have afor attribute with the same value as the input's id</legend>
+                        <ul class="answers-list">
+                            <li>
+                                <label for="q2-a1">
+                                    <input id="q2-a1" name="q2" value="True" type="radio">True
+                                </label>
+                            </li>
+                            <li>
+                                <label for="q2-a2">
+                                    <input id="q2-a2" name="q2" value="False" type="radio">False
+                                </label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </div>
+
             </section>
 
             <section role="region" aria-labelledby="css-questions">
                 <h2 id="css-questions">CSS Questions</h2>
+                <div class="formrow">
+
+                    <div class="question-block">
+                        <label for="">Can the CSS margin property accept negative values?</label>
+                    </div>
+                    <div class="answer">
+
+                    </div>
+
+                    <div class="question-block">
+                        <label for="">Do you have any questions:</label>
+                    </div>
+                    <div class="answer"></div>
+
+                </div>
             </section>
+
         </form>
     </main>
 </body>
