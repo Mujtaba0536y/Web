@@ -92,21 +92,35 @@
                 <div class="formrow">
 
                     <div class="question-block">
-                        <label for="">Can the CSS margin property accept negative values?</label>
+                        <label for="select">Can the CSS margin property accept negative values?</label>
                     </div>
                     <div class="answer">
-
+                        <select name="Select" id="select" required>
+                            <option value="">Select an option</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
                     </div>
 
                     <div class="question-block">
-                        <label for="">Do you have any questions:</label>
+                        <label for="textarea">Do you have any questions:</label>
                     </div>
-                    <div class="answer"></div>
+                    <div class="answer">
+                        <textarea name="Textarea" id="textarea" cols="30" rows="10"></textarea>
+                    </div>
 
                 </div>
             </section>
-
+            <input type="submit" value="Send">
         </form>
     </main>
+    <footer>
+        <address>
+             <a href="https://freecodecamp.org" target="_blank">freeCodeCamp</a><br />
+            San Francisco<br />
+            California<br />
+            USA
+        </address>
+    </footer>
 </body>
 </html>
