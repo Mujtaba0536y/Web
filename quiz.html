@@ -10,17 +10,45 @@
 <body>
     <header>
         <img id="logo" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="freeCodeCamp">
+
         <h1>HTML/CSS Quiz</h1>
         <nav>
             <ul>
-                <li><a href="">INFO</a></li>
-                <li><a href="">HTML</a></li>
-                <li><a href="">CSS</a></li>
+                <li><a href="#student-info">INFO</a></li>
+                <li><a href="#html-questions">HTML</a></li>
+                <li><a href="#css-questions">CSS</a></li>
             </ul>
         </nav>
     </header>
     <main>
 
+        <form action="https://freecodecamp.org/practice-project/accessibility-quiz" method="post">
+
+            <section role="region" aria-labelledby="student-info">
+                <h2 id="student-info">Student Info</h2>
+                
+                <div class="info">
+                    <label for=""></label>
+                    <input type="text" name="" id="">
+                </div>
+                <div class="info">
+                    <label for=""></label>
+                    <input type="text" name="" id="">
+                </div>
+                <div class="info">
+                    <label for=""></label>
+                    <input type="text" name="" id="">
+                </div>
+            </section>
+
+            <section role="region" aria-labelledby="html-questions">
+                <h2 id="html-questions">HTML Questions</h2>
+            </section>
+
+            <section role="region" aria-labelledby="css-questions">
+                <h2 id="css-questions">CSS Questions</h2>
+            </section>
+        </form>
     </main>
 </body>
 </html>
