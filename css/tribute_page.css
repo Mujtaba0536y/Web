@@ -1,0 +1,42 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    background-color: #eeeeee;
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+#img-div{
+    max-width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#image{
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+figcaption{
+    margin-top: 10px;
+    max-width: 800px;
+    width: 100%;
+}
+
+#tribute-info{
+    display: block;
+    text-align: left;
+    max-width: 60%;
+    margin: auto;
+    line-height: 30px;
+}
+
